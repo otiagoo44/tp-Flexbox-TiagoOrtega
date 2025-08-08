@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 6</title>
+  <style>
+    body {
+      padding: 0;
+      font-family: sans-serif;
+    }
+    main {
+      display: flex;
+      flex-direction: row;
+      gap: 2px;
+    }
+    .cl {
+      flex-grow: 1;
+      background-color: cornflowerblue;
+      padding: 12px 24px;
+      height: 100vh;
+    }
+    .cp {
+      flex-grow: 8;
+      background-color: cadetblue;
+      padding: 12px 24px;
+      height: 100vh;
+    }
+    .menulateral {
+      padding: 8px 12px;
+      border-bottom: solid 1px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-basis: 100%;
+      list-style: none;
+      padding: 0;
+      gap: 2px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="cl">
+      <ul>
+      <li class="menulateral">Home</li>
+      <li class="menulateral">Servicios</li>
+      <li class="menulateral">Opciones</li>
+      <li class="menulateral">Planes</li>
+      <li class="menulateral">Contacto</li>
+      </ul>
+
+    </div>
+    <div class="cp">contenido principal</div>
+  </main>
+</body>
+</html>
