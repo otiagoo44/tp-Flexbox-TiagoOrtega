@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <style>
+        .cuerpo {
+            display: flex;
+            width: 1000px;
+            height: 700px;
+            margin: 20px;
+            flex-direction: row;
+            font-family: sans-serif;
+        }
+        .colizq {
+            flex: 4;
+            background-color: cadetblue;
+            padding: 8px;
+
+        }
+        .colder {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            flex: 2;
+        }
+        .deralt {
+            flex: 1;
+            border: solid 0.5px;
+            justify-content: center;
+        }
+        .derbaj {
+            flex: 1;
+            border: solid 0.5px;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <main class="cuerpo">
+        <div class="colizq">
+            Columna izquierda
+        </div>
+        <div class="colder">
+            <div class="deralt">
+            Derecha parte alta
+        </div>
+        <div class="derbaj">
+            Derecha parte baja
+        </div>
+        </div>
+
+    </main>
+</body>
+</html>
