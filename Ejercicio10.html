@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .cuerpo {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .titulo {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            justify-content: center;
+            background-color: goldenrod;
+        }
+
+        .latizq {
+            flex: 1;
+            justify-content: center;
+            padding: 24px;
+            background-color: dimgray;
+            text-align: center;
+        }
+
+        .latder {
+            flex: 1;
+            justify-content: center;
+            padding: 24px;
+            background-color: dimgray;
+            text-align: center;
+        }
+
+        .zoncen {
+            flex: 2;
+            justify-content: center;
+            padding: 24px;
+            text-align: center;
+        }
+
+        main {
+            height: 100vh;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="titulo">
+        <h2>Titulo de la página</h2>
+    </header>
+
+    <main class="cuerpo">
+        <div class="latizq">
+            <p>Lateral izquierdo</p>
+        </div>
+
+        <article class="zoncen">
+            <p>Zona central</p>
+        </article>
+
+        <div class="latder">
+            <p>Lateral derecho</p>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

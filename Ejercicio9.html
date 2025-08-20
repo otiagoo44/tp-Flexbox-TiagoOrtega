@@ -7,33 +7,34 @@
     <style>
         .cuerpo {
             display: flex;
-            width: 1000px;
-            height: 700px;
-            margin: 20px;
+            height: 100vh;
+            padding: 20px;
             flex-direction: row;
             font-family: sans-serif;
+            box-sizing: border-box;
         }
         .colizq {
-            flex: 4;
+            flex: 2;
             background-color: cadetblue;
-            padding: 8px;
+            padding: 12px;
 
         }
         .colder {
             display: flex;
             flex-direction: column;
-            width: 300px;
-            flex: 2;
+            flex: 1;
         }
         .deralt {
-            flex: 1;
+            flex: 1 1 100%;
             border: solid 0.5px;
             justify-content: center;
+            padding: 25px;
         }
         .derbaj {
-            flex: 1;
+            flex: 1 1 100%;
             border: solid 0.5px;
             justify-content: center;
+            padding: 25px;
         }
     </style>
 </head>
@@ -45,12 +46,11 @@
         <div class="colder">
             <div class="deralt">
             Derecha parte alta
-        </div>
-        <div class="derbaj">
+            </div>
+            <div class="derbaj">
             Derecha parte baja
+            </div>
         </div>
-        </div>
-
     </main>
 </body>
 </html>
